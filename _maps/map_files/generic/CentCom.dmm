@@ -3615,8 +3615,22 @@
 /turf/open/floor/iron,
 /area/centcom/central_command_areas/supply)
 "jM" = (
-/mob/living/basic/bot/cleanbot/medbay,
 /obj/machinery/light/floor/has_bulb,
+/obj/structure/table/reinforced,
+/obj/item/storage/backpack/duffelbag/med/surgery{
+	pixel_x = 6;
+	pixel_y = 10
+	},
+/obj/item/storage/backpack/duffelbag/med/surgery{
+	pixel_x = 6
+	},
+/obj/item/storage/backpack/duffelbag/med/surgery{
+	pixel_x = -6;
+	pixel_y = 10
+	},
+/obj/item/storage/backpack/duffelbag/med/surgery{
+	pixel_x = -6
+	},
 /turf/open/floor/iron/dark,
 /area/centcom/central_command_areas/medical)
 "jN" = (
@@ -18734,6 +18748,10 @@
 /obj/machinery/light/floor/has_bulb,
 /turf/open/floor/grass,
 /area/centcom/central_command_areas/hall)
+"YG" = (
+/mob/living/basic/bot/cleanbot/medbay,
+/turf/open/floor/iron/dark,
+/area/centcom/central_command_areas/medical)
 "YH" = (
 /obj/effect/turf_decal/tile/neutral/fourcorners,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden{
@@ -66458,7 +66476,7 @@ aa
 aa
 we
 jM
-Nb
+YG
 cu
 Nb
 XW
