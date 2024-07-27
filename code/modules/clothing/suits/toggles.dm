@@ -39,7 +39,11 @@
 /obj/item/clothing/suit/hooded/on_outfit_equip(mob/living/carbon/human/outfit_wearer, visuals_only, item_slot)
 	if(visuals_only)
 		MakeHood()
-	ToggleHood()
+	//monkestation edit start
+	var/datum/outfit/outfit
+	if(outfit.head == null)
+		ToggleHood()
+	//monkestation edit end
 
 /obj/item/clothing/suit/hooded/proc/RemoveHood()
 	src.icon_state = "[initial(icon_state)]"
