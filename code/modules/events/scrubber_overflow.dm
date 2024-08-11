@@ -130,7 +130,7 @@
 	typepath = /datum/round_event/scrubber_overflow/threatening
 	weight = 4
 	min_players = 25
-	max_occurrences = 1
+	max_occurrences = 0 // monkestation edit: won't occur naturally
 	earliest_start = 35 MINUTES
 	description = "The scrubbers release a tide of moderately harmless froth."
 	min_wizard_trigger_potency = 0
@@ -145,7 +145,7 @@
 	typepath = /datum/round_event/scrubber_overflow/catastrophic
 	weight = 2
 	min_players = 35
-	max_occurrences = 1
+	max_occurrences = 0 // monkestation edit: won't occur naturally
 	earliest_start = 45 MINUTES
 	description = "The scrubbers release a tide of mildly harmless froth."
 	min_wizard_trigger_potency = 3
