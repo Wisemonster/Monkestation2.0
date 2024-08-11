@@ -2,7 +2,7 @@
 	name = "Scrubber Overflow: Normal"
 	typepath = /datum/round_event/scrubber_overflow
 	weight = 10
-	max_occurrences = 3
+	max_occurrences = 0 // monkestation edit: won't occur naturally
 	min_players = 10
 	category = EVENT_CATEGORY_JANITORIAL
 	description = "The scrubbers release a tide of mostly harmless froth."
