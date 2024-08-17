@@ -8,6 +8,7 @@
 	restricted_roles = list(
 		JOB_CAPTAIN,
 		JOB_HEAD_OF_SECURITY,
+		JOB_BLUESHIELD
 	) // Just to be sure that a wizard getting picked won't ever imply a Captain or HoS not getting drafted
 	maximum_antags = 1
 	enemy_roles = list(
@@ -18,6 +19,7 @@
 		JOB_SECURITY_OFFICER,
 		JOB_WARDEN,
 		JOB_CHAPLAIN,
+		JOB_BLUESHIELD,
 	)
 	required_enemies = 5
 	roundstart = TRUE

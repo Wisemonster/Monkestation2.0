@@ -19,6 +19,7 @@
 		JOB_SECURITY_OFFICER,
 		JOB_WARDEN,
 		JOB_BRIG_PHYSICIAN,
+		JOB_BLUESHIELD,
 	)
 	base_antags = 2
 	enemy_roles = list(
@@ -28,6 +29,7 @@
 		JOB_SECURITY_OFFICER,
 		JOB_SECURITY_ASSISTANT,
 		JOB_WARDEN,
+		JOB_BLUESHIELD,
 	)
 	required_enemies = 6
 	// I give up, just there should be enough heads with 35 players...

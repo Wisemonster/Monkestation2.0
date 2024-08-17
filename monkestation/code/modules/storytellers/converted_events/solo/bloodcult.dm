@@ -26,6 +26,7 @@
 		JOB_SECURITY_ASSISTANT,
 		JOB_WARDEN,
 		JOB_CHAPLAIN,
+		JOB_BLUESHIELD,
 	)
 	required_enemies = 5
 	base_antags = 2
