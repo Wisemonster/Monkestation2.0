@@ -152,7 +152,7 @@
 	name = "Fullness Syndrome"
 	desc = "An unsual symptom that causes the infected to feel hungry, even after eating."
 	stage = 1
-	badness = EFFECT_DANGER_ANNOYING
+	badness = EFFECT_DANGER_HINDRANCE
 	var/list/host_messages = list(
 		"Your stomach grumbles.",
 		"You feel peckish.",
