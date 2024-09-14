@@ -32166,6 +32166,13 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating,
 /area/station/maintenance/port/aft)
+"kHl" = (
+/obj/effect/turf_decal/trimline/blue/filled/line{
+	dir = 4
+	},
+/obj/machinery/medipen_refiller,
+/turf/open/floor/iron/white,
+/area/station/medical/medbay/lobby)
 "kHw" = (
 /obj/item/paper/crumpled,
 /turf/open/floor/iron/dark,
@@ -109553,7 +109560,7 @@ wxL
 lbf
 aHD
 uNw
-uEp
+kHl
 tjR
 npo
 uEp
