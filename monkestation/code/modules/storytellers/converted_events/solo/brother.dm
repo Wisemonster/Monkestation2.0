@@ -24,6 +24,7 @@
 	)
 	enemy_roles = list(
 		JOB_CAPTAIN,
+		JOB_BLUESHIELD,
 		JOB_HEAD_OF_SECURITY,
 		JOB_DETECTIVE,
 		JOB_WARDEN,
