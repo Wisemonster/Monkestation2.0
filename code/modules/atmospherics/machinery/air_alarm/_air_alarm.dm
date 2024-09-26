@@ -620,7 +620,11 @@ MAPPING_DIRECTIONAL_HELPERS(/obj/machinery/airalarm, 27)
 /obj/machinery/airalarm/proc/set_tlv_cold_room()
 	tlv_collection["temperature"] = new /datum/tlv/cold_room_temperature
 	tlv_collection["pressure"] = new /datum/tlv/cold_room_pressure
-	stop_ac() //monkestation addition: prevents cold rooms from heating up from the air conditioning
+	//monkestation addition start: helps keep cold rooms cold
+	ac_temp_target = COLD_ROOM_TEMP
+	ac_temp_min = COLD_ROOM_TEMP - 5
+	ac_temp_max = COLD_ROOM_TEMP + 5
+	//monkestation addition end
 
 ///Used for air alarm no tlv helper, which removes alarm thresholds
 /obj/machinery/airalarm/proc/set_tlv_no_checks()
