@@ -290,3 +290,48 @@
   - rscadd: Adds ball gown and mini crown to loadout menu
   - rscadd: Mini crown, in loadout and autodrobe
   - bugfix: Minicrown sprite centered
+2024-10-17:
+  Absolucy:
+  - refactor: Refactored how loadout shop items are displayed. (again)
+  - image: Properly centered the Sunset Sarsaparilla sprite.
+  - refactor: (Melbert) Refactored how vending machine icons are displayed, please
+      report if you see any broken icons. Also if all the icons look like missing
+      file icons for you, you gotta update byond man, you're like a year out of date.
+  - image: (MTandi) Made chem master container icons not blurry.
+  - bugfix: Stamina regeneration and stuns/incapacitation wearing off should hopefully
+      be more consistent regardless of server lag.
+  - bugfix: Fixed a variety of random minor errors.
+  - rscdel: HoPs can no longer open more Blueshield job slots.
+  Absolucy, LemonInTheDark:
+  - bugfix: Fixed a major source of lag related to hallucinations.
+  Meowosers:
+  - rscadd: Placed a Biogenerator on the front desk of Icebox Station's Hydroponics
+  - qol: Rearranged Icebox Station's Kitchen
+  RikuTheKiller:
+  - bugfix: Toxin damage is no longer doubled. (LMAO)
+  Wisemonster:
+  - bugfix: Fixed Theseus having brig access doors in place of perma ones.
+  - bugfix: Fixed Delta having general security access airlocks instead of perma ones.
+  - bugfix: Fixed Box almost only using general security access doors.
+2024-10-18:
+  Absolucy:
+  - qol: The heretic living heart now displays up-to-date appearances of its targets
+      when used.
+2024-10-19:
+  DexeeXI:
+  - bugfix: wikibooks now point to the new page homes on the wiki.
+  Shoddd:
+  - bugfix: fixes lavaland max temperature
+2024-10-20:
+  Absolucy:
+  - bugfix: Large amounts of smoke should no longer live for many times its intended
+      lifetime.
+  - bugfix: Fixed tamed goliaths not properly following commands - they'll now actually
+      follow you if you command "follow".
+  Addust:
+  - rscadd: The ERP achievement has been updated to reflect current rules naming schemes
+      in-game. This DOES NOT affect back-end code because I'm too lazy to change that.
+  Gw0sty:
+  - bugfix: Fixed incorrect door access on Theseus's BlueShield's Office.
+  RafRoq:
+  - qol: You can now search for reagents in the seed extractor
