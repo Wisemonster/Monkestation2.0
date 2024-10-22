@@ -47321,7 +47321,7 @@
 /area/station/maintenance/port/upper)
 "nnj" = (
 /obj/machinery/door/firedoor,
-/obj/effect/mapping_helpers/airlock/access/all/security/general,
+/obj/effect/mapping_helpers/airlock/access/any/security/permabrig,
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
@@ -58910,8 +58910,8 @@
 /turf/open/floor/iron/dark/textured_large,
 /area/station/medical/morgue)
 "qtc" = (
+/obj/machinery/door/firedoor,
 /obj/effect/mapping_helpers/airlock/access/any/security/permabrig,
-/obj/effect/mapping_helpers/airlock/access/all/security/brig,
 /obj/effect/turf_decal/stripes/line{
 	dir = 4
 	},
