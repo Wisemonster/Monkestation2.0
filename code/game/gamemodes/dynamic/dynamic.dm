@@ -304,9 +304,9 @@ GLOBAL_VAR_INIT(dynamic_forced_threat_level, -1)
 	//monkestation edit start:
 	//switch(round(shown_threat))
 	var/list/green_star_storytellers = list(/datum/storyteller/ghost, /datum/storyteller/sleeper) //list for calmer storytellers for a greenshift
-	var/list/midnight_sun_storytellers = list(/datum/storyteller/jester, /datum/storyteller/warrior) //list for the more chaotic storytellers for black sun
+	var/list/midnight_sun_storytellers = list(/datum/storyteller/jester, /datum/storyteller/warrior, /datum/storyteller/brute) //list for the more chaotic storytellers for black sun
 	var/greenshift = FALSE
-	if((SSgamemode.selected_storyteller in green_star_storytellers) || (SSgamemode.storyteller.disable_distribution))
+	if((SSgamemode.selected_storyteller in green_star_storytellers) || (SSgamemode.current_storyteller.disable_distribution))
 		greenshift = TRUE
 	/*if(0 to 19)
 		var/show_core_territory = (GLOB.current_living_antags.len > 0)
