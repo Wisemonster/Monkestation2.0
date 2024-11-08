@@ -1,6 +1,6 @@
 /datum/job/head_of_personnel
 	title = JOB_HEAD_OF_PERSONNEL
-	description = "Alter access on ID cards, manage the service and supply department, \
+	description = "Alter access on ID cards, manage the service and supply departments, \
 		protect Ian, run the station when the captain dies." //monkestation addition: clarifies the HoP is the supply head
 	auto_deadmin_role_flags = DEADMIN_POSITION_HEAD
 	department_head = list(JOB_CAPTAIN)
