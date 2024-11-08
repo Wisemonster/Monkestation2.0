@@ -121,7 +121,7 @@
 	region_access = REGION_MEDBAY
 
 /obj/item/door_remote/civilian
-	name = "2-in-1 civilian/supply door remote"
+	name = "civilian+supply door remote"
 	icon_state = "gangtool-white"
 	region_access = (REGION_GENERAL && REGION_SUPPLY) //monkestation addition
 
