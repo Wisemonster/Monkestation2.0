@@ -214,9 +214,13 @@
 		rank = "Silicon"
 
 	var/datum/bank_account/account
+	//monkestation edit start: Helps prevent cargo mass ordering guns
+	var/mob/living/living_user = usr
+	var/obj/item/card/id/id_card = living_user.get_idcard(TRUE)
+	var/list/access = id_card.GetAccess()
 	if(self_paid && isliving(usr))
-		var/mob/living/living_user = usr
-		var/obj/item/card/id/id_card = living_user.get_idcard(TRUE)
+		//var/mob/living/living_user = usr
+		//var/obj/item/card/id/id_card = living_user.get_idcard(TRUE)
 		if(!istype(id_card))
 			say("No ID card detected.")
 			return
@@ -227,11 +231,11 @@
 		if(!istype(account))
 			say("Invalid bank account.")
 			return
-		var/list/access = id_card.GetAccess()
-		if(pack.access_view && !(pack.access_view in access))
-			say("[id_card] lacks the requisite access for this purchase.")
-			return
-
+		//var/list/access = id_card.GetAccess()
+	if(pack.access_view && (!(pack.access_view in access) && !(ACCESS_COMMAND in access))) //Let's members of command order without restrictions
+		say("[id_card] lacks the requisite access for this purchase.")
+		return
+	//monkestation edit end
 	var/reason = ""
 	if(requestonly && !self_paid)
 		reason = tgui_input_text(usr, "Reason", name)
