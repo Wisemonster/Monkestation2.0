@@ -66855,6 +66855,7 @@
 /obj/machinery/requests_console/directional/north{
 	name = "Telecomms Requests Console"
 	},
+/obj/effect/mapping_helpers/requests_console/announcement,
 /turf/open/floor/iron/dark/small,
 /area/station/tcommsat/computer)
 "tRS" = (
