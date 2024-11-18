@@ -64,6 +64,11 @@ SUBSYSTEM_DEF(security_level)
 	SEND_SIGNAL(src, COMSIG_SECURITY_LEVEL_CHANGED, selected_level.number_level)
 	SSblackbox.record_feedback("tally", "security_level_changes", 1, selected_level.name)
 
+//monkestation addition start: lifts permit-locks when security level is set to red or above
+	if(SSsecurity_level.get_current_level_as_number() >= SEC_LEVEL_RED)
+		GLOB.permit_pin_unrestricted = TRUE
+//monkestation addition end
+
 /**
  * Returns the current security level as a number
  */
