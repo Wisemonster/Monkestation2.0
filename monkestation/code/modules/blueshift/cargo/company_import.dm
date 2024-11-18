@@ -81,9 +81,6 @@ GLOBAL_VAR_INIT(permit_pin_unrestricted, FALSE)
 	if(GLOB.permit_pin_unrestricted)
 		return TRUE
 
-	if(SSsecurity_level.get_current_level_as_number() >= SEC_LEVEL_RED) // Let's security levels red and above allow the gun to be fired
-		return TRUE
-
 	var/obj/item/card/id/the_id = user.get_idcard()
 
 	if(!the_id && is_station_level(station_check.z))
