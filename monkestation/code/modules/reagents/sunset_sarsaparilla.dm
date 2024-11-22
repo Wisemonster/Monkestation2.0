@@ -17,6 +17,6 @@
 
 /datum/reagent/consumable/sunset_sarsaparilla/on_mob_life(mob/living/carbon/drinker)
 	. = ..()
-	drinker.heal_bodypart_damage(brute = 2.5)
-	drinker.heal_bodypart_damage(burn = 2.5)
+	drinker.heal_bodypart_damage(brute = 0.5)
+	drinker.heal_bodypart_damage(burn = 0.5)
 
