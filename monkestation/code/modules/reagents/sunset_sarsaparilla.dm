@@ -16,7 +16,8 @@
 	icon_state = "sunset_sarsparillaglass"
 
 /datum/reagent/consumable/sunset_sarsaparilla/on_mob_life(mob/living/carbon/drinker)
-	. = ..()
-	drinker.heal_bodypart_damage(brute = 0.5)
-	drinker.heal_bodypart_damage(burn = 0.5)
-
+	var/heal_amt = 1.5 * REM * seconds_per_tick
+	drinker.heal_bodypart_damage(brute = heal_amt, updating_health = FALSE)
+	drinker.heal_bodypart_damage(burn = heal_amt, updating_health = FALSE)
+	drinker.updatehealth()
+	return ..()
