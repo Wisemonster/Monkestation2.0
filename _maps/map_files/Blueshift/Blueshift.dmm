@@ -3049,7 +3049,8 @@
 "aFb" = (
 /obj/structure/reagent_dispensers/water_cooler,
 /obj/machinery/requests_console/directional/north{
-	name = "Telecomms Requests Console"
+	name = "Telecomms Requests Console";
+	department = "Telecomms Admin"
 	},
 /obj/effect/mapping_helpers/requests_console/announcement,
 /turf/open/floor/iron/dark,
