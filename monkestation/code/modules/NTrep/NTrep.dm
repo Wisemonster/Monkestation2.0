@@ -15,7 +15,7 @@
 	exp_granted_type = EXP_TYPE_CREW
 	config_tag = "NANOTRASEN_REPRESENTATIVE"
 
-	allow_bureaucratic_error = FALSE
+	allow_bureaucratic_error = FALSEe
 	allow_overflow = FALSE
 
 	outfit = /datum/outfit/job/nanotrasen_representative
