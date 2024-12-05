@@ -10,7 +10,7 @@
 	AddElement(/datum/element/corrupted_organ)
 	AddElement(/datum/element/noticable_organ, "%PRONOUN_Their eyes have wide dilated pupils, and no iris. Something is moving in the darkness.", BODY_ZONE_PRECISE_EYES)
 
-/obj/item/organ/internal/eyes/corrupt/Insert(mob/living/carbon/organ_owner, special)
+/obj/item/organ/internal/eyes/corrupt/Insert(mob/living/carbon/organ_owner, special, drop_if_replace)
 	. = ..()
 	if (!organ_owner.client)
 		return
@@ -45,7 +45,7 @@
 	AddElement(/datum/element/corrupted_organ)
 	AddElement(/datum/element/noticable_organ, "The inside of %PRONOUN_Their mouth is full of stars.", BODY_ZONE_PRECISE_MOUTH)
 
-/obj/item/organ/internal/tongue/corrupt/Insert(mob/living/carbon/organ_owner, special)
+/obj/item/organ/internal/tongue/corrupt/Insert(mob/living/carbon/organ_owner, special, drop_if_replace)
 	. = ..()
 	RegisterSignal(organ_owner, COMSIG_MOB_SAY, PROC_REF(on_spoken))
 
@@ -84,7 +84,7 @@
 	. = ..()
 	AddElement(/datum/element/corrupted_organ)
 
-/obj/item/organ/internal/liver/corrupt/Insert(mob/living/carbon/organ_owner, special)
+/obj/item/organ/internal/liver/corrupt/Insert(mob/living/carbon/organ_owner, special, drop_if_replace)
 	. = ..()
 	RegisterSignal(organ_owner, COMSIG_ATOM_EXPOSE_REAGENTS, PROC_REF(on_drank))
 
@@ -120,7 +120,7 @@
 	AddElement(/datum/element/corrupted_organ)
 	AddElement(/datum/element/noticable_organ, "%PRONOUN_They %PRONOUN_have an unhealthy pallor.")
 
-/obj/item/organ/internal/stomach/corrupt/Insert(mob/living/carbon/organ_owner, special)
+/obj/item/organ/internal/stomach/corrupt/Insert(mob/living/carbon/organ_owner, special, drop_if_replace)
 	. = ..()
 	RegisterSignal(organ_owner, COMSIG_ATOM_EXPOSE_REAGENTS, PROC_REF(on_drank))
 
