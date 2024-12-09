@@ -8,7 +8,7 @@
 /obj/item/organ/internal/eyes/corrupt/Initialize(mapload)
 	. = ..()
 	AddElement(/datum/element/corrupted_organ)
-	AddElement(/datum/element/noticable_organ, "%PRONOUN_Their eyes have wide dilated pupils, and no iris. Something is moving in the darkness.", BODY_ZONE_PRECISE_EYES)
+	AddElement(/datum/element/noticable_organ, "eyes have wide dilated pupils, and no iris. Something is moving in the darkness.", BODY_ZONE_PRECISE_EYES)
 
 /obj/item/organ/internal/eyes/corrupt/Insert(mob/living/carbon/organ_owner, special, drop_if_replaced)
 	. = ..()
@@ -43,7 +43,7 @@
 /obj/item/organ/internal/tongue/corrupt/Initialize(mapload)
 	. = ..()
 	AddElement(/datum/element/corrupted_organ)
-	AddElement(/datum/element/noticable_organ, "The inside of %PRONOUN_Their mouth is full of stars.", BODY_ZONE_PRECISE_MOUTH)
+	AddElement(/datum/element/noticable_organ, "mouth is full of stars.", BODY_ZONE_PRECISE_MOUTH)
 
 /obj/item/organ/internal/tongue/corrupt/Insert(mob/living/carbon/organ_owner, special, drop_if_replaced)
 	. = ..()
@@ -118,7 +118,7 @@
 /obj/item/organ/internal/stomach/corrupt/Initialize(mapload)
 	. = ..()
 	AddElement(/datum/element/corrupted_organ)
-	AddElement(/datum/element/noticable_organ, "%PRONOUN_They %PRONOUN_have an unhealthy pallor.")
+	AddElement(/datum/element/noticable_organ, "appears to have an unhealthy pallor.")
 
 /obj/item/organ/internal/stomach/corrupt/Insert(mob/living/carbon/organ_owner, special, drop_if_replaced)
 	. = ..()
@@ -233,7 +233,7 @@
 /obj/item/organ/internal/appendix/corrupt/Initialize(mapload)
 	. = ..()
 	AddElement(/datum/element/corrupted_organ)
-	AddElement(/datum/element/noticable_organ, "%PRONOUN_Their abdomen is distended... and wiggling.", BODY_ZONE_PRECISE_GROIN)
+	AddElement(/datum/element/noticable_organ, "abdomen is distended... and wiggling.", BODY_ZONE_PRECISE_GROIN)
 
 /obj/item/organ/internal/appendix/corrupt/on_life(seconds_per_tick, times_fired)
 	. = ..()
