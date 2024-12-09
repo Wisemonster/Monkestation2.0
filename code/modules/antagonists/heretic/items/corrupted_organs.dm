@@ -118,7 +118,7 @@
 /obj/item/organ/internal/stomach/corrupt/Initialize(mapload)
 	. = ..()
 	AddElement(/datum/element/corrupted_organ)
-	AddElement(/datum/element/noticable_organ, "appears to have an unhealthy pallor.")
+	AddElement(/datum/element/noticable_organ, "appear%PRONOUN_S to have an unhealthy pallor.")
 
 /obj/item/organ/internal/stomach/corrupt/Insert(mob/living/carbon/organ_owner, special, drop_if_replaced)
 	. = ..()
