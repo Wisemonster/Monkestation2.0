@@ -5,6 +5,8 @@
 	var/list/station_cargo = list(
 		/area/station/cargo/warehouse,
 		/area/station/cargo/storage,
+		/area/station/cargo/office,
+		/area/station/cargo/sorting,
 	)
 
 //Checks to see if the user in cargo or it's warehouse
