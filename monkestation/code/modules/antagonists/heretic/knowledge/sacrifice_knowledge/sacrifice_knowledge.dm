@@ -260,7 +260,7 @@
 		return
 
 	//monkestation addition start:
-	sac_target.reagents?.remove_all() //stops chems from killing in the mansus
+	sac_target.reagents?.remove_all(sac_target.reagents.total_volume) //stops chems from killing in the mansus
 	sac_target.restore_blood() //stops target from just dying from low blood in the mansus
 	//monkestation addition end
 	if(sac_target.AdjustUnconscious(SACRIFICE_SLEEP_DURATION))
