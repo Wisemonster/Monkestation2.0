@@ -314,7 +314,7 @@
 
 	sac_target.apply_status_effect(/datum/status_effect/unholy_determination, SACRIFICE_REALM_DURATION)
 	//monkestation addition start:
-	sac_target.reagents?.remove_all(1000) //stops chems from killing in the mansus
+	sac_target.reagents?.remove_all(sac_target.reagents.total_volume) //stops chems from killing in the mansus
 	sac_target.restore_blood() //stops target from just dying from low blood in the mansus
 	//monkestation addition end
 	addtimer(CALLBACK(src, PROC_REF(after_target_wakes), sac_target), SACRIFICE_SLEEP_DURATION * 0.5) // Begin the minigame
