@@ -251,7 +251,7 @@
 	if(length(possible_turfs))
 		return pick(possible_turfs)
 
-///This proc attempts to return the head of staff back to the station after getting the interrogator finishes
+///This proc attempts to return the head of staff back to the station after the interrogator finishes
 /obj/machinery/interrogator/proc/return_victim()
 	var/turf/open/floor/safe_turf = get_safe_random_station_turf()
 	var/obj/effect/landmark/observer_start/backup_loc = locate(/obj/effect/landmark/observer_start) in GLOB.landmarks_list
