@@ -186,6 +186,10 @@
 		if ("changeSecurityLevel")
 			if (!authenticated_as_silicon_or_captain(usr))
 				return
+			//monkestation edit start:
+			if (is_type_in_list(get_area(src), typesof(/area/shuttle/syndicate/cruiser))) // Prevents assault ops from modifying the alert level from thier shuttle
+				return
+			//monkestation edit end
 
 			// Check if they have
 			if (!issilicon(usr))
@@ -299,9 +303,11 @@
 			var/clock_user = IS_CLOCK(usr) //monkestation edit
 			if (!authenticated(usr) || issilicon(usr) || syndicate || (clock_user && GLOB.main_clock_cult?.member_recalled)) //monkestation edit: adds the CWC check
 				return
-//monkestation edit start
+//monkestation edit start:
 			if(clock_user)
 				GLOB.main_clock_cult?.member_recalled = TRUE
+			if (is_type_in_list(get_area(src), typesof(/area/shuttle/syndicate/cruiser))) // Prevents assault ops from recalling from their shuttle
+				return
 //monkestation edit end
 			SSshuttle.cancelEvac(usr)
 		if ("requestNukeCodes")
