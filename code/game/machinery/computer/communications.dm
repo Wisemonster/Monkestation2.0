@@ -188,6 +188,7 @@
 				return
 			//monkestation edit start:
 			if (is_type_in_list(get_area(src), typesof(/area/shuttle/syndicate/cruiser))) // Prevents assault ops from modifying the alert level from thier shuttle
+			to_chat(usr, span_warning("Unable to connect to security level systems due to local interference"))
 				return
 			//monkestation edit end
 
@@ -307,6 +308,7 @@
 			if(clock_user)
 				GLOB.main_clock_cult?.member_recalled = TRUE
 			if (is_type_in_list(get_area(src), typesof(/area/shuttle/syndicate/cruiser))) // Prevents assault ops from recalling from their shuttle
+				to_chat(usr, span_warning("Unable to connect to shuttle systems due to local interference"))
 				return
 //monkestation edit end
 			SSshuttle.cancelEvac(usr)
