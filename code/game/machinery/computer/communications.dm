@@ -307,7 +307,7 @@
 //monkestation edit start:
 			if(clock_user)
 				GLOB.main_clock_cult?.member_recalled = TRUE
-			if (is_type_in_list(get_area(src), typesof(/area/shuttle/syndicate/cruiser))) // Prevents assault ops from recalling from their shuttle
+			if(istype(get_area(src), /area/shuttle/syndicate/cruiser)) // monkestation edit: Prevents assault ops from recalling from their shuttle
 				to_chat(usr, span_warning("Unable to connect to shuttle systems due to local interference"))
 				return
 //monkestation edit end
