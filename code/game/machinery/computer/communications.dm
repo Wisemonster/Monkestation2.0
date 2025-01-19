@@ -188,7 +188,7 @@
 				return
 			//monkestation edit start:
 			if (is_type_in_list(get_area(src), typesof(/area/shuttle/syndicate/cruiser))) // Prevents assault ops from modifying the alert level from thier shuttle
-			to_chat(usr, span_warning("Unable to connect to security level systems due to local interference"))
+				to_chat(usr, span_warning("Unable to connect to security level systems due to local interference"))
 				return
 			//monkestation edit end
 
