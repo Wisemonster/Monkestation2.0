@@ -187,7 +187,7 @@
 			if (!authenticated_as_silicon_or_captain(usr))
 				return
 			//monkestation edit start:
-			if (is_type_in_list(get_area(src), typesof(/area/shuttle/syndicate/cruiser))) // Prevents assault ops from modifying the alert level from thier shuttle
+			if(istype(get_area(src), /area/shuttle/syndicate/cruiser)) // monkestation edit: Prevents assault ops from modifying the alert level from their shuttle
 				to_chat(usr, span_warning("Unable to connect to security level systems due to local interference"))
 				return
 			//monkestation edit end
