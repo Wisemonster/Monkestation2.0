@@ -3215,6 +3215,7 @@
 	},
 /obj/effect/mapping_helpers/apc/syndicate_access,
 /obj/machinery/firealarm/directional/east,
+/obj/machinery/rnd/production/circuit_imprinter/offstation,
 /turf/open/floor/iron/dark/smooth_large,
 /area/ruin/space/has_grav/syndicate_depot/manufacturing)
 "PL" = (
