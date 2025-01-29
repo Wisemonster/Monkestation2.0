@@ -1052,6 +1052,8 @@
 
 	icon_state = "sindano_evil"
 	inhand_icon_state = "sindano_evil"
+	spread = 5
+	projectile_wound_bonus = 5
 
 /obj/item/gun/ballistic/automatic/sol_smg/evil/no_mag
 	spawnwithmagazine = FALSE
