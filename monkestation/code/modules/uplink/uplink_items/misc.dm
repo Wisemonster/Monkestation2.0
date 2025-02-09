@@ -31,7 +31,7 @@
 /datum/uplink_item/device_tools/plasma_license
 	name = "License to Murderbone"
 	desc = "A contract abusing a loophole found by plasmamen to invade halls with harmful gases \
-			without repricution or warning, garnering no attention from any higher powers. \
+			without repercussion or warning, garnering no attention from any higher powers. \
 			Has to be signed by purchaser to be considered valid."
 	purchasable_from = ~(UPLINK_NUKE_OPS | UPLINK_CLOWN_OPS)
 	item = /obj/item/card/plasma_license
