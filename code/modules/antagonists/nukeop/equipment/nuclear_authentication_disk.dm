@@ -54,7 +54,6 @@
 
 /obj/item/disk/nuclear/proc/secured_process(last_move)
 	var/turf/new_turf = get_turf(src)
-	var/datum/round_event_control/operative/loneop = locate(/datum/round_event_control/operative) in SSevents.control
 	var/datum/round_event_control/operative/loneopmode = locate(/datum/round_event_control/operative) in SSgamemode.control
 	if(istype(loneopmode) && loneopmode.occurrences < loneopmode.max_occurrences && prob(loneopmode.weight))
 		loneopmode.weight = max(loneopmode.weight - 1, 1) //monkestation edit: increased minimum to 1
