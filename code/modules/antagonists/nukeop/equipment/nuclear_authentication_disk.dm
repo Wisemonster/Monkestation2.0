@@ -56,7 +56,7 @@
 	var/turf/new_turf = get_turf(src)
 	var/datum/round_event_control/operative/loneop = locate(/datum/round_event_control/operative) in SSevents.control
 	var/datum/round_event_control/operative/loneopmode = locate(/datum/round_event_control/operative) in SSgamemode.control
-	if((istype(loneop) && istype(loneopmode)) && loneopmode.occurrences < loneopmode.max_occurrences && prob(loneopmode.weight))
+	if(istype(loneopmode) && loneopmode.occurrences < loneopmode.max_occurrences && prob(loneopmode.weight))
 		loneopmode.weight = max(loneopmode.weight - 1, 1) //monkestation edit: increased minimum to 1
 		loneopmode.checks_antag_cap = (loneopmode.weight < 3)
 		if(loneopmode.weight % 5 == 0 && SSticker.totalPlayers > 1)
