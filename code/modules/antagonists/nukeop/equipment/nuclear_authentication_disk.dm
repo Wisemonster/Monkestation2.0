@@ -80,7 +80,6 @@
 			disk_comfort_level++
 
 	if(last_move < world.time - 300 SECONDS && prob((world.time - 300 SECONDS - last_move)*0.0001)) //monkestation edit: weight will start increasing at 5 minutes unsecure, rather than 8.3
-		var/datum/round_event_control/operative/loneop = locate(/datum/round_event_control/operative) in SSevents.control
 		var/datum/round_event_control/operative/loneopmode = locate(/datum/round_event_control/operative) in SSgamemode.control
 		if(istype(loneopmode) && loneopmode.occurrences < loneopmode.max_occurrences)
 			loneopmode.checks_antag_cap = (loneopmode.weight < 3)
