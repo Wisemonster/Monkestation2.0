@@ -19,7 +19,7 @@
 	var/scanning = 0 // Time in process ticks until scan is over
 	var/spliced = FALSE // If at least one effect has been spliced into the current dish this is TRUE
 
-	///the stage we are set to grab from
+	///the slot we are set to grab from
 	var/target_slot = 1
 	idle_power_usage = 100
 	active_power_usage = 600
