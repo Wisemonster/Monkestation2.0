@@ -41813,6 +41813,7 @@
 	},
 /obj/effect/turf_decal/bot,
 /obj/machinery/disease2/centrifuge,
+/obj/item/storage/box/tube,
 /turf/open/floor/iron/dark,
 /area/station/medical/pathology)
 "mVL" = (
