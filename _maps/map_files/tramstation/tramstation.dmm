@@ -11830,6 +11830,7 @@
 /obj/effect/turf_decal/trimline/green/filled/line{
 	dir = 1
 	},
+/obj/item/reagent_containers/syringe/antiviral,
 /turf/open/floor/iron/white,
 /area/station/medical/pathology)
 "cDp" = (
@@ -80802,6 +80803,7 @@
 /obj/item/stack/sheet/mineral/plasma{
 	amount = 3
 	},
+/obj/item/reagent_containers/syringe/antiviral,
 /turf/open/floor/iron/white,
 /area/station/medical/pathology)
 "ycV" = (
