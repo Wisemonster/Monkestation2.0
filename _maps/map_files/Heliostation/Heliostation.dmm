@@ -5164,6 +5164,10 @@
 /obj/item/reagent_containers/cup/beaker,
 /obj/item/reagent_containers/syringe,
 /obj/item/reagent_containers/dropper,
+/obj/item/restraints/handcuffs{
+	pixel_x = -3;
+	pixel_y = 2
+	},
 /turf/open/floor/iron/white,
 /area/station/medical/virology/isolation)
 "aFg" = (
@@ -5400,21 +5404,14 @@
 /area/station/security/prison/garden)
 "aGp" = (
 /obj/structure/rack,
-/obj/item/restraints/handcuffs{
-	pixel_x = 3;
-	pixel_y = -2
-	},
-/obj/item/restraints/handcuffs,
-/obj/item/restraints/handcuffs{
-	pixel_x = -3;
-	pixel_y = 2
-	},
 /obj/effect/turf_decal/trimline/green/filled/line{
 	dir = 8
 	},
 /obj/effect/turf_decal/trimline/blue/filled/line{
 	dir = 8
 	},
+/obj/item/crowbar/red,
+/obj/item/wrench,
 /turf/open/floor/iron/white,
 /area/station/medical/virology/isolation)
 "aGs" = (
@@ -5459,9 +5456,6 @@
 /area/station/medical/virology/isolation)
 "aGN" = (
 /obj/structure/table/glass,
-/obj/item/wrench,
-/obj/item/crowbar/red,
-/obj/item/storage/box/monkeycubes,
 /obj/effect/turf_decal/trimline/green/filled/line{
 	dir = 9
 	},
@@ -5469,6 +5463,9 @@
 	dir = 9
 	},
 /obj/structure/sign/poster/official/work_for_a_future/directional/north,
+/obj/item/storage/box/monkeycubes/mousecubes,
+/obj/item/storage/box/monkeycubes/mousecubes,
+/obj/item/storage/box/monkeycubes/mousecubes,
 /turf/open/floor/iron/white,
 /area/station/medical/virology/isolation)
 "aGO" = (
@@ -5718,16 +5715,18 @@
 /obj/item/device/antibody_scanner,
 /obj/item/device/antibody_scanner,
 /obj/item/device/antibody_scanner,
+/obj/item/device/antibody_scanner,
 /obj/item/healthanalyzer,
 /obj/item/reagent_containers/syringe/antiviral,
+/obj/item/reagent_containers/syringe/antiviral,
 /obj/item/healthanalyzer,
-/obj/item/clothing/gloves/latex,
 /obj/item/clothing/gloves/latex,
 /obj/item/clothing/gloves/latex,
 /obj/item/clothing/glasses/pathology,
 /obj/item/clothing/glasses/pathology,
 /obj/item/clothing/glasses/pathology,
 /obj/structure/table/glass,
+/obj/item/clothing/glasses/hud/health,
 /obj/item/clothing/glasses/hud/health,
 /turf/open/floor/iron/white,
 /area/station/medical/virology)
@@ -6363,8 +6362,15 @@
 /obj/effect/turf_decal/trimline/blue/filled/line,
 /obj/machinery/light/directional/south,
 /obj/structure/table/glass,
-/obj/machinery/computer/records/medical/laptop{
-	dir = 1
+/obj/machinery/reagentgrinder,
+/obj/item/stack/sheet/mineral/plasma,
+/obj/item/reagent_containers/syringe/antiviral,
+/obj/item/storage/box/syringes{
+	pixel_x = -5
+	},
+/obj/item/storage/box/beakers{
+	pixel_x = 2;
+	pixel_y = 4
 	},
 /turf/open/floor/iron/white,
 /area/station/medical/virology)
@@ -6593,19 +6599,14 @@
 /area/station/maintenance/port/fore)
 "aLK" = (
 /obj/structure/table,
-/obj/item/folder/white{
-	pixel_x = -1;
-	pixel_y = 4
-	},
-/obj/item/folder/white{
-	pixel_x = 5
-	},
-/obj/item/pen/red,
 /obj/effect/turf_decal/trimline/green/filled/line{
 	dir = 4
 	},
 /obj/effect/turf_decal/trimline/blue/filled/line{
 	dir = 4
+	},
+/obj/machinery/computer/records/medical/laptop{
+	dir = 8
 	},
 /turf/open/floor/iron/white,
 /area/station/medical/virology/isolation)
@@ -7020,6 +7021,10 @@
 /obj/item/reagent_containers/cup/beaker,
 /obj/item/reagent_containers/syringe,
 /obj/item/reagent_containers/dropper,
+/obj/item/restraints/handcuffs{
+	pixel_x = -3;
+	pixel_y = 2
+	},
 /turf/open/floor/iron/white,
 /area/station/medical/virology/isolation)
 "aNc" = (
@@ -7338,6 +7343,14 @@
 	},
 /obj/effect/turf_decal/trimline/blue/filled/line{
 	dir = 6
+	},
+/obj/item/folder/white{
+	pixel_x = 5
+	},
+/obj/item/pen/red,
+/obj/item/folder/white{
+	pixel_x = -1;
+	pixel_y = 4
 	},
 /turf/open/floor/iron/white,
 /area/station/medical/virology/isolation)
@@ -49647,10 +49660,6 @@
 	dir = 4
 	},
 /obj/machinery/disease2/centrifuge,
-/obj/item/reagent_containers/cup/tube,
-/obj/item/reagent_containers/cup/tube,
-/obj/item/reagent_containers/cup/tube,
-/obj/item/reagent_containers/cup/tube,
 /turf/open/floor/iron/white,
 /area/station/medical/virology)
 "lZI" = (
