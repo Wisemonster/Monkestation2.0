@@ -46009,12 +46009,6 @@
 "vXl" = (
 /turf/open/floor/grass,
 /area/station/hallway/secondary/exit/departure_lounge)
-"vXq" = (
-/obj/effect/spawner/structure/window/reinforced,
-/obj/structure/cable,
-/obj/structure/cable,
-/turf/open/floor/plating,
-/area/station/medical/pathology)
 "vXs" = (
 /obj/effect/turf_decal/trimline/purple/filled/line{
 	dir = 4
@@ -96301,7 +96295,7 @@ cme
 veA
 veA
 cme
-vXq
+hpG
 aHu
 aHu
 aHu
