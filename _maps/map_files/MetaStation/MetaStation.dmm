@@ -8026,6 +8026,13 @@
 /obj/effect/turf_decal/delivery,
 /turf/open/floor/iron/white,
 /area/station/science/xenobiology)
+"cWp" = (
+/obj/structure/disposalpipe/segment{
+	dir = 5
+	},
+/obj/structure/lattice/catwalk,
+/turf/open/space/basic,
+/area/space/nearstation)
 "cWr" = (
 /obj/structure/disposalpipe/segment{
 	dir = 4
@@ -10558,7 +10565,6 @@
 /turf/open/floor/circuit/green/telecomms/mainframe,
 /area/station/tcommsat/server)
 "dQI" = (
-/obj/structure/table/glass,
 /turf/open/floor/iron/white/diagonal,
 /area/station/medical/pathology/isolation)
 "dQT" = (
@@ -11629,6 +11635,15 @@
 /obj/item/storage/backpack/duffelbag/sec,
 /turf/open/floor/iron/dark,
 /area/station/security/office)
+"eiZ" = (
+/obj/structure/bed{
+	dir = 4
+	},
+/obj/item/bedsheet/medical{
+	dir = 4
+	},
+/turf/open/floor/iron/white/diagonal,
+/area/station/medical/pathology/isolation)
 "eja" = (
 /obj/structure/curtain/bounty,
 /turf/open/floor/iron/stairs{
@@ -23138,6 +23153,10 @@
 /obj/effect/landmark/start/hangover,
 /turf/open/floor/plating,
 /area/station/maintenance/fore)
+"iic" = (
+/obj/structure/lattice,
+/turf/closed/wall/r_wall,
+/area/station/medical/pathology/isolation)
 "iid" = (
 /obj/machinery/conveyor{
 	dir = 10;
@@ -28097,9 +28116,6 @@
 /obj/structure/lattice/catwalk,
 /turf/open/space/basic,
 /area/space/nearstation)
-"jLx" = (
-/turf/open/floor/iron/white/diagonal,
-/area/station/medical/pathology/isolation)
 "jLD" = (
 /obj/effect/landmark/event_spawn,
 /obj/structure/cable,
@@ -30199,6 +30215,11 @@
 /obj/item/storage/crayons,
 /turf/open/floor/wood,
 /area/station/service/library)
+"kwY" = (
+/obj/structure/disposalpipe/segment,
+/obj/structure/lattice/catwalk,
+/turf/open/space/basic,
+/area/space/nearstation)
 "kwZ" = (
 /turf/open/floor/engine/vacuum,
 /area/station/engineering/atmos)
@@ -34803,12 +34824,9 @@
 /turf/open/floor/carpet,
 /area/station/command/heads_quarters/captain/private)
 "lZV" = (
-/obj/structure/disposalpipe/segment{
-	dir = 5
-	},
-/obj/structure/lattice/catwalk,
-/turf/open/space/basic,
-/area/space/nearstation)
+/obj/structure/water_source/puddle,
+/turf/open/floor/grass,
+/area/station/medical/pathology/isolation)
 "mam" = (
 /obj/structure/disposalpipe/segment{
 	dir = 4
@@ -35343,11 +35361,6 @@
 /obj/structure/cable/layer3,
 /turf/open/floor/iron/dark,
 /area/station/ai_monitored/aisat/exterior)
-"mjZ" = (
-/obj/structure/disposalpipe/segment,
-/obj/structure/lattice/catwalk,
-/turf/open/space/basic,
-/area/space/nearstation)
 "mkb" = (
 /obj/effect/turf_decal/tile/neutral{
 	dir = 1
@@ -35544,10 +35557,6 @@
 /obj/effect/turf_decal/stripes/line,
 /turf/open/floor/plating,
 /area/station/maintenance/aft/greater)
-"mnX" = (
-/obj/structure/water_source/puddle,
-/turf/open/floor/grass,
-/area/station/medical/pathology/isolation)
 "moe" = (
 /obj/effect/turf_decal/delivery,
 /obj/structure/disposalpipe/trunk{
@@ -36808,15 +36817,6 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/iron,
 /area/station/engineering/atmos)
-"mJr" = (
-/obj/item/bedsheet/medical{
-	dir = 4
-	},
-/obj/structure/bed{
-	dir = 4
-	},
-/turf/open/floor/iron/white/diagonal,
-/area/station/medical/pathology/isolation)
 "mJE" = (
 /obj/effect/turf_decal/tile/neutral{
 	dir = 1
@@ -45016,6 +45016,15 @@
 /obj/effect/turf_decal/bot,
 /turf/open/floor/iron,
 /area/station/commons/vacant_room/commissary)
+"pzK" = (
+/obj/item/bedsheet/medical{
+	dir = 4
+	},
+/obj/structure/bed{
+	dir = 4
+	},
+/turf/open/floor/iron/white/diagonal,
+/area/station/medical/pathology/isolation)
 "pzN" = (
 /obj/effect/turf_decal/tile/purple/half,
 /obj/item/radio/intercom/directional/south,
@@ -54458,10 +54467,6 @@
 /obj/effect/turf_decal/trimline/dark_green/corner,
 /turf/open/floor/iron/dark/textured,
 /area/station/medical/pathology)
-"sKc" = (
-/obj/structure/lattice,
-/turf/closed/wall/r_wall,
-/area/station/medical/pathology/isolation)
 "sKe" = (
 /turf/open/floor/carpet,
 /area/station/medical/pathology)
@@ -65537,12 +65542,8 @@
 /turf/open/floor/iron,
 /area/station/hallway/primary/central)
 "wEN" = (
-/obj/structure/bed{
-	dir = 4
-	},
-/obj/item/bedsheet/medical{
-	dir = 4
-	},
+/obj/structure/table/glass,
+/obj/item/restraints/handcuffs,
 /turf/open/floor/iron/white/diagonal,
 /area/station/medical/pathology/isolation)
 "wER" = (
@@ -83697,8 +83698,8 @@ lMJ
 lMJ
 lMJ
 kiA
-mjZ
-lZV
+kwY
+cWp
 lMJ
 lMJ
 lMJ
@@ -83944,7 +83945,7 @@ aox
 lMJ
 aaa
 aaa
-sKc
+iic
 lOi
 lOi
 lOi
@@ -84202,14 +84203,14 @@ lMJ
 aaa
 aaa
 lOi
-mJr
-dQI
-lOi
-mJr
-dQI
-lOi
+pzK
 wEN
-dQI
+lOi
+pzK
+wEN
+lOi
+eiZ
+wEN
 hDg
 hDg
 oWq
@@ -84717,13 +84718,13 @@ aaa
 aaa
 lOi
 ddR
-jLx
+dQI
 lOi
 ddR
-jLx
+dQI
 lOi
 ddR
-jLx
+dQI
 hDg
 afy
 aEa
@@ -86773,7 +86774,7 @@ jUb
 kue
 ebk
 oeF
-mnX
+lZV
 hbE
 ueF
 oeF
