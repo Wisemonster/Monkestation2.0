@@ -32112,6 +32112,7 @@
 /obj/effect/mapping_helpers/airlock/access/all/medical/virology,
 /obj/effect/turf_decal/tile/green/full,
 /obj/machinery/door/firedoor,
+/obj/structure/cable,
 /turf/open/floor/iron/white,
 /area/station/medical/pathology)
 "jTm" = (
@@ -58105,10 +58106,6 @@
 	},
 /turf/open/floor/iron/dark,
 /area/station/service/hydroponics)
-"rQw" = (
-/obj/effect/spawner/structure/window/reinforced,
-/turf/open/floor/plating,
-/area/station/medical/pathology)
 "rQx" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
@@ -182301,7 +182298,7 @@ xDb
 xDb
 ygs
 mrU
-rQw
+pGS
 xEb
 pGS
 jTg
