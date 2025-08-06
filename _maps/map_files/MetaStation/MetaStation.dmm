@@ -23153,10 +23153,6 @@
 /obj/effect/landmark/start/hangover,
 /turf/open/floor/plating,
 /area/station/maintenance/fore)
-"iic" = (
-/obj/structure/lattice,
-/turf/closed/wall/r_wall,
-/area/station/medical/pathology/isolation)
 "iid" = (
 /obj/machinery/conveyor{
 	dir = 10;
@@ -83945,7 +83941,7 @@ aox
 lMJ
 aaa
 aaa
-iic
+lOi
 lOi
 lOi
 lOi
