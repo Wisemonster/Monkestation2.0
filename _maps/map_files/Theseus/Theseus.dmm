@@ -30976,6 +30976,7 @@
 /obj/effect/turf_decal/trimline/green/filled/line,
 /obj/machinery/light/small/directional/south,
 /obj/structure/table/reinforced/rglass,
+/obj/item/restraints/handcuffs,
 /turf/open/floor/iron/white,
 /area/station/medical/pathology/isolation)
 "jdY" = (
@@ -38547,6 +38548,13 @@
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
 	dir = 1
 	},
+/obj/item/storage/box/beakers{
+	pixel_x = 8;
+	pixel_y = 11
+	},
+/obj/item/storage/box/syringes{
+	pixel_x = 7
+	},
 /turf/open/floor/iron/white,
 /area/station/medical/pathology/isolation)
 "llV" = (
@@ -43283,7 +43291,7 @@
 /obj/machinery/reagentgrinder{
 	desc = "Used to grind things up into raw materials and liquids.";
 	pixel_y = 16;
-	pixel_x = -15
+	pixel_x = -10
 	},
 /obj/item/stack/sheet/mineral/plasma{
 	amount = 5
@@ -43293,6 +43301,8 @@
 	},
 /obj/machinery/light/directional/south,
 /obj/structure/closet/secure_closet/wall/directional/south,
+/obj/item/storage/box/monkeycubes/mousecubes,
+/obj/item/storage/box/monkeycubes/mousecubes,
 /obj/item/storage/box/monkeycubes/mousecubes,
 /turf/open/floor/iron/dark,
 /area/station/medical/pathology)
@@ -53911,7 +53921,6 @@
 /area/station/service/hydroponics/chicken)
 "pPm" = (
 /obj/item/crowbar/red,
-/obj/item/restraints/handcuffs,
 /obj/item/wrench,
 /obj/effect/turf_decal/tile/green/anticorner,
 /obj/structure/table/reinforced/rglass,
@@ -65899,6 +65908,14 @@
 /obj/effect/turf_decal/tile/neutral{
 	dir = 1
 	},
+/obj/machinery/reagentgrinder{
+	desc = "Used to grind things up into raw materials and liquids.";
+	pixel_y = 16;
+	pixel_x = -10
+	},
+/obj/item/stack/sheet/mineral/plasma{
+	amount = 5
+	},
 /turf/open/floor/iron/dark,
 /area/station/medical/pathology)
 "tjt" = (
@@ -71676,6 +71693,7 @@
 /obj/effect/turf_decal/trimline/green/filled/line{
 	dir = 1
 	},
+/obj/item/restraints/handcuffs,
 /turf/open/floor/iron/white,
 /area/station/medical/pathology/isolation)
 "uMU" = (
@@ -74050,14 +74068,11 @@
 /turf/open/floor/iron,
 /area/station/hallway/primary/central/fore)
 "vvS" = (
-/obj/structure/table/reinforced/rglass,
 /obj/item/device/antibody_scanner,
 /obj/item/device/antibody_scanner,
 /obj/item/device/antibody_scanner,
 /obj/item/healthanalyzer,
 /obj/item/healthanalyzer,
-/obj/item/healthanalyzer,
-/obj/item/clothing/gloves/latex,
 /obj/item/clothing/gloves/latex,
 /obj/item/clothing/gloves/latex,
 /obj/item/clothing/glasses/pathology,
@@ -74069,6 +74084,9 @@
 	},
 /obj/structure/closet/secure_closet/wall/directional/south,
 /obj/item/clothing/glasses/hud/health,
+/obj/item/clothing/glasses/hud/health,
+/obj/item/device/antibody_scanner,
+/obj/machinery/disease2/diseaseanalyser,
 /turf/open/floor/iron/dark,
 /area/station/medical/pathology)
 "vvY" = (
