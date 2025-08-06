@@ -18930,6 +18930,14 @@
 "fvs" = (
 /turf/open/floor/iron/white/textured_large,
 /area/station/science/lab)
+"fvC" = (
+/obj/structure/flora/bush/sparsegrass,
+/obj/structure/window/reinforced/spawner/directional/east{
+	layer = 2.9
+	},
+/mob/living/carbon/human/species/monkey,
+/turf/open/floor/grass,
+/area/station/medical/pathology/isolation)
 "fvW" = (
 /obj/effect/turf_decal/trimline/yellow/filled/line{
 	dir = 5
@@ -28486,7 +28494,8 @@
 /turf/open/floor/iron/dark/telecomms,
 /area/station/tcommsat/server)
 "ihA" = (
-/turf/open/floor/iron/white/herringbone,
+/obj/structure/lattice,
+/turf/closed/wall/r_wall,
 /area/station/medical/pathology/isolation)
 "ihB" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
@@ -29542,17 +29551,6 @@
 	dir = 8
 	},
 /area/station/cargo/warehouse)
-"itI" = (
-/obj/structure/flora/bush/lavendergrass/style_random,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/machinery/door/window/right/directional/east{
-	name = "Monkey Pen";
-	req_access = list("pathology")
-	},
-/obj/item/food/grown/banana,
-/turf/open/floor/grass,
-/area/station/medical/pathology/isolation)
 "itN" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
@@ -30874,6 +30872,17 @@
 /obj/effect/turf_decal/box,
 /turf/open/floor/iron/small,
 /area/station/hallway/secondary/exit/departure_lounge)
+"iMR" = (
+/obj/structure/flora/bush/lavendergrass/style_random,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/door/window/right/directional/east{
+	name = "Monkey Pen";
+	req_access = list("pathology")
+	},
+/obj/item/food/grown/banana,
+/turf/open/floor/grass,
+/area/station/medical/pathology/isolation)
 "iMZ" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
@@ -40770,6 +40779,7 @@
 	},
 /obj/structure/sign/poster/official/cleanliness/directional/east,
 /obj/machinery/disease2/centrifuge,
+/obj/item/storage/box/tube,
 /turf/open/floor/iron/white/textured_edge{
 	dir = 8
 	},
@@ -47240,8 +47250,13 @@
 /turf/open/floor/iron/dark/textured_edge,
 /area/station/security/interrogation)
 "njV" = (
-/obj/structure/lattice,
-/turf/closed/wall/r_wall,
+/obj/effect/turf_decal/trimline/dark_green/filled/line{
+	dir = 8
+	},
+/obj/machinery/holopad,
+/turf/open/floor/iron/white/textured_edge{
+	dir = 4
+	},
 /area/station/medical/pathology/isolation)
 "nkb" = (
 /obj/item/kirbyplants/random,
@@ -55251,6 +55266,10 @@
 /obj/effect/mapping_helpers/airlock/unres,
 /turf/open/floor/catwalk_floor/iron_smooth,
 /area/station/commons/vacant_room/office)
+"ptP" = (
+/obj/structure/flora/bush/large,
+/turf/open/floor/grass,
+/area/station/medical/pathology/isolation)
 "ptT" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
@@ -55621,6 +55640,9 @@
 	dir = 4
 	},
 /area/station/hallway/primary/fore)
+"pzt" = (
+/turf/open/floor/iron/white/herringbone,
+/area/station/medical/pathology/isolation)
 "pzD" = (
 /obj/machinery/atmospherics/components/trinary/filter/atmos/co2{
 	dir = 8
@@ -58657,10 +58679,6 @@
 /obj/machinery/light/small/directional/north,
 /turf/open/floor/pod/dark,
 /area/station/service/chapel/office)
-"qmx" = (
-/obj/structure/flora/bush/large,
-/turf/open/floor/grass,
-/area/station/medical/pathology/isolation)
 "qmD" = (
 /obj/structure/cable,
 /obj/machinery/disposal/bin,
@@ -64251,15 +64269,6 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating,
 /area/station/maintenance/port)
-"rSR" = (
-/obj/machinery/airalarm/directional/west,
-/obj/effect/turf_decal/trimline/dark_green/filled/line{
-	dir = 8
-	},
-/turf/open/floor/iron/white/textured_edge{
-	dir = 4
-	},
-/area/station/medical/pathology/isolation)
 "rSX" = (
 /obj/structure/table,
 /obj/item/reagent_containers/condiment/saltshaker{
@@ -65302,6 +65311,14 @@
 /obj/structure/disposalpipe/segment,
 /turf/open/floor/iron/white,
 /area/station/medical/surgery)
+"shW" = (
+/obj/structure/flora/bush/sparsegrass,
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4,
+/obj/structure/window/reinforced/spawner/directional/east{
+	layer = 2.9
+	},
+/turf/open/floor/grass,
+/area/station/medical/pathology/isolation)
 "shZ" = (
 /obj/effect/landmark/event_spawn,
 /turf/open/floor/iron/large,
@@ -70453,6 +70470,7 @@
 	},
 /obj/structure/sign/warning/biohazard/directional/east,
 /obj/machinery/disease2/centrifuge,
+/obj/item/storage/box/tube,
 /turf/open/floor/iron/white/textured_edge{
 	dir = 8
 	},
@@ -71612,14 +71630,6 @@
 "tOA" = (
 /turf/closed/wall,
 /area/station/commons/lounge)
-"tOE" = (
-/obj/structure/flora/bush/sparsegrass,
-/obj/structure/window/reinforced/spawner/directional/east{
-	layer = 2.9
-	},
-/mob/living/carbon/human/species/monkey,
-/turf/open/floor/grass,
-/area/station/medical/pathology/isolation)
 "tOI" = (
 /mob/living/simple_animal/bot/floorbot,
 /obj/structure/railing,
@@ -75538,15 +75548,6 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /turf/open/floor/wood,
 /area/station/service/lawoffice)
-"uRp" = (
-/obj/effect/turf_decal/trimline/dark_green/filled/line{
-	dir = 8
-	},
-/obj/machinery/holopad,
-/turf/open/floor/iron/white/textured_edge{
-	dir = 4
-	},
-/area/station/medical/pathology/isolation)
 "uRq" = (
 /obj/effect/turf_decal/tile/neutral{
 	dir = 1
@@ -79055,12 +79056,13 @@
 /turf/open/floor/iron/freezer,
 /area/station/medical/chemistry)
 "vSg" = (
-/obj/structure/flora/bush/sparsegrass,
-/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4,
-/obj/structure/window/reinforced/spawner/directional/east{
-	layer = 2.9
+/obj/machinery/airalarm/directional/west,
+/obj/effect/turf_decal/trimline/dark_green/filled/line{
+	dir = 8
 	},
-/turf/open/floor/grass,
+/turf/open/floor/iron/white/textured_edge{
+	dir = 4
+	},
 /area/station/medical/pathology/isolation)
 "vSj" = (
 /obj/machinery/portable_atmospherics/scrubber,
@@ -103506,11 +103508,11 @@ ttw
 xMq
 xMq
 xMq
-njV
-njV
-njV
-njV
-njV
+ihA
+ihA
+ihA
+ihA
+ihA
 xMq
 jgz
 xMq
@@ -103763,7 +103765,7 @@ ttw
 xMq
 sxD
 giG
-qmx
+ptP
 gdQ
 kmU
 gdQ
@@ -104021,10 +104023,10 @@ hdT
 dzh
 giG
 cqf
-vSg
-itI
+shW
+iMR
 paz
-tOE
+fvC
 giG
 soY
 eEL
@@ -104281,8 +104283,8 @@ woA
 dBG
 cmO
 uTK
-uRp
-rSR
+njV
+vSg
 iHU
 oUn
 hBV
@@ -105048,11 +105050,11 @@ hdT
 bmv
 cqz
 giG
-ihA
+pzt
 vHy
 ivS
 vHy
-ihA
+pzt
 giG
 giG
 fXr
