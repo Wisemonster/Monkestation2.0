@@ -2200,6 +2200,7 @@
 	},
 /obj/item/book/manual/wiki/infections,
 /obj/item/reagent_containers/dropper,
+/obj/item/reagent_containers/dropper,
 /obj/item/reagent_containers/syringe/antiviral,
 /obj/item/reagent_containers/syringe/antiviral,
 /obj/item/storage/box/monkeycubes/mousecubes,
@@ -2357,8 +2358,9 @@
 /turf/open/floor/plating,
 /area/station/maintenance/fore/lesser)
 "bib" = (
-/obj/structure/flora/tree/jungle/small/style_6,
-/turf/open/floor/grass,
+/obj/effect/spawner/structure/window/reinforced,
+/obj/structure/cable,
+/turf/open/floor/plating,
 /area/space)
 "bim" = (
 /obj/machinery/corral_corner{
@@ -3915,6 +3917,12 @@
 /obj/item/kirbyplants/random,
 /turf/open/floor/iron,
 /area/station/cargo/storage)
+"ccT" = (
+/obj/effect/turf_decal/tile/green/diagonal_edge,
+/obj/effect/turf_decal/tile/dark/diagonal_centre,
+/obj/machinery/smartfridge/chemistry/virology/preloaded,
+/turf/open/floor/iron/diagonal,
+/area/station/medical/pathology)
 "cdr" = (
 /obj/structure/cable,
 /turf/open/floor/plating,
@@ -5214,6 +5222,19 @@
 /obj/effect/spawner/random/structure/steam_vent,
 /turf/open/floor/plating,
 /area/station/maintenance/starboard)
+"cIA" = (
+/obj/machinery/door/airlock/virology{
+	autoclose = 0;
+	frequency = 1449;
+	id_tag = "virology_airlock_interior";
+	name = "Pathology Interior Airlock"
+	},
+/obj/effect/turf_decal/tile/green/diagonal_edge,
+/obj/effect/mapping_helpers/airlock/access/all/medical/virology,
+/obj/structure/cable,
+/obj/effect/turf_decal/tile/dark/diagonal_centre,
+/turf/open/floor/iron/diagonal,
+/area/station/medical/pathology)
 "cIO" = (
 /obj/structure/ladder,
 /obj/structure/ladder,
@@ -10895,18 +10916,6 @@
 /obj/effect/turf_decal/tile/dark/diagonal_centre,
 /obj/structure/cable,
 /obj/structure/table/glass,
-/obj/machinery/reagentgrinder{
-	desc = "Used to grind things up into raw materials and liquids.";
-	pixel_y = 5
-	},
-/obj/item/stack/sheet/mineral/plasma{
-	amount = 5
-	},
-/obj/item/storage/box/beakers{
-	pixel_x = 3;
-	pixel_y = 3
-	},
-/obj/item/storage/box/syringes,
 /turf/open/floor/iron/diagonal,
 /area/station/medical/pathology)
 "frg" = (
@@ -11839,6 +11848,8 @@
 	network = list("ss13","medbay","virology")
 	},
 /obj/structure/reagent_dispensers/wall/virusfood/directional/east,
+/obj/item/clothing/glasses/hud/health,
+/obj/item/clothing/glasses/hud/health,
 /turf/open/floor/iron/diagonal,
 /area/station/medical/pathology)
 "fOI" = (
@@ -15100,6 +15111,11 @@
 /obj/machinery/status_display/evac/directional/south,
 /turf/open/floor/iron/diagonal,
 /area/station/commons/dorms)
+"hqt" = (
+/obj/item/food/grown/banana/bunch,
+/mob/living/basic/monkey_animatronic,
+/turf/open/floor/grass,
+/area/space)
 "hqz" = (
 /turf/open/floor/wood,
 /area/station/service/library)
@@ -17656,9 +17672,20 @@
 "ixP" = (
 /obj/effect/turf_decal/tile/green/diagonal_edge,
 /obj/effect/turf_decal/tile/dark/diagonal_centre,
-/obj/structure/closet/crate/freezer/blood,
-/obj/machinery/iv_drip,
 /obj/machinery/light/directional/north,
+/obj/structure/table/glass,
+/obj/machinery/reagentgrinder{
+	desc = "Used to grind things up into raw materials and liquids.";
+	pixel_y = 5
+	},
+/obj/item/stack/sheet/mineral/plasma{
+	amount = 5
+	},
+/obj/item/storage/box/syringes,
+/obj/item/storage/box/beakers{
+	pixel_x = 3;
+	pixel_y = 3
+	},
 /turf/open/floor/iron/diagonal,
 /area/station/medical/pathology)
 "ixQ" = (
@@ -20344,18 +20371,6 @@
 /obj/item/grown/bananapeel,
 /turf/open/floor/mineral/bananium,
 /area/station/maintenance/starboard/greater)
-"jKE" = (
-/obj/machinery/door/airlock/virology{
-	autoclose = 0;
-	frequency = 1449;
-	id_tag = "virology_airlock_interior";
-	name = "Pathology Interior Airlock"
-	},
-/obj/effect/turf_decal/tile/green/diagonal_edge,
-/obj/effect/mapping_helpers/airlock/access/all/medical/virology,
-/obj/structure/cable,
-/turf/open/space/basic,
-/area/station/medical/pathology)
 "jKG" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
@@ -25861,12 +25876,6 @@
 	},
 /turf/open/space/basic,
 /area/space)
-"mqy" = (
-/obj/effect/spawner/structure/window/reinforced,
-/obj/structure/cable,
-/obj/structure/cable,
-/turf/open/floor/plating,
-/area/space)
 "mqD" = (
 /obj/structure/railing,
 /turf/open/openspace,
@@ -26650,13 +26659,8 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/effect/turf_decal/tile/green/diagonal_edge,
 /obj/effect/turf_decal/tile/dark/diagonal_centre,
-/obj/structure/table/glass,
-/obj/machinery/microwave{
-	desc = "Cooks and boils stuff, somehow.";
-	pixel_x = -3;
-	pixel_y = 5
-	},
 /obj/structure/cable,
+/obj/machinery/disease2/diseaseanalyser,
 /turf/open/floor/iron/diagonal,
 /area/station/medical/pathology)
 "mLD" = (
@@ -27741,11 +27745,6 @@
 /obj/structure/transit_tube/diagonal/topleft,
 /turf/open/space/basic,
 /area/space/nearstation)
-"njI" = (
-/obj/item/food/grown/banana/bunch,
-/mob/living/basic/monkey_animatronic,
-/turf/open/floor/grass,
-/area/space)
 "njO" = (
 /obj/structure/sink/directional/north,
 /obj/effect/turf_decal/tile/blue/diagonal_centre,
@@ -33328,10 +33327,6 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating,
 /area/station/maintenance/port/greater)
-"pZm" = (
-/obj/structure/water_source/puddle,
-/turf/open/floor/grass,
-/area/space)
 "pZp" = (
 /obj/structure/cable,
 /obj/machinery/power/apc/auto_name/directional/east,
@@ -33762,6 +33757,8 @@
 /obj/effect/turf_decal/stripes/line{
 	dir = 4
 	},
+/obj/structure/closet/crate/freezer/blood,
+/obj/machinery/iv_drip,
 /turf/open/floor/iron/diagonal,
 /area/station/medical/pathology)
 "qkm" = (
@@ -34408,12 +34405,6 @@
 "qAb" = (
 /turf/closed/wall,
 /area/station/hallway/secondary/entry)
-"qAs" = (
-/obj/effect/turf_decal/tile/green/diagonal_edge,
-/obj/effect/turf_decal/tile/dark/diagonal_centre,
-/obj/machinery/smartfridge/chemistry/virology/preloaded,
-/turf/open/floor/iron/diagonal,
-/area/station/medical/pathology)
 "qAQ" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
@@ -35616,6 +35607,9 @@
 /obj/effect/turf_decal/tile/dark/diagonal_centre,
 /obj/machinery/firealarm/directional/north,
 /obj/machinery/vending/wardrobe/viro_wardrobe,
+/obj/effect/spawner/random/food_or_drink/donkpockets{
+	pixel_y = 17
+	},
 /turf/open/floor/iron/diagonal,
 /area/station/medical/pathology)
 "reb" = (
@@ -35818,6 +35812,12 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating,
 /area/station/maintenance/port/central)
+"rhx" = (
+/obj/effect/spawner/structure/window/reinforced,
+/obj/structure/cable,
+/obj/structure/cable,
+/turf/open/floor/plating,
+/area/space)
 "rhA" = (
 /obj/effect/turf_decal/tile/neutral/diagonal_centre,
 /obj/effect/turf_decal/tile/dark_blue/diagonal_centre,
@@ -36775,6 +36775,7 @@
 /turf/open/floor/carpet/grimey,
 /area/station/service/bar/backroom)
 "rFJ" = (
+/obj/structure/flora/tree/jungle/small/style_6,
 /turf/open/floor/grass,
 /area/space)
 "rFV" = (
@@ -37608,6 +37609,10 @@
 /obj/structure/flora/bush/flowers_yw/style_random,
 /turf/open/floor/grass,
 /area/station/hallway/primary/central/aft)
+"rXe" = (
+/mob/living/carbon/human/species/monkey,
+/turf/open/floor/grass,
+/area/space)
 "rXh" = (
 /obj/structure/sign/painting/library{
 	pixel_y = -32
@@ -38643,11 +38648,6 @@
 /obj/effect/turf_decal/tile/dark/diagonal_edge,
 /turf/open/floor/iron/diagonal,
 /area/station/ai_monitored/command/storage/eva)
-"suT" = (
-/obj/effect/spawner/structure/window/reinforced,
-/obj/structure/cable,
-/turf/open/floor/plating,
-/area/space)
 "suX" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
@@ -39779,6 +39779,13 @@
 "sXq" = (
 /turf/closed/wall/r_wall,
 /area/station/medical/pharmacy)
+"sXs" = (
+/obj/effect/turf_decal/tile/green/diagonal_edge,
+/obj/effect/turf_decal/tile/dark/diagonal_centre,
+/obj/structure/table/glass,
+/obj/machinery/microwave,
+/turf/open/floor/iron/diagonal,
+/area/station/medical/pathology)
 "sXt" = (
 /obj/effect/landmark/start/hangover,
 /turf/open/floor/eighties,
@@ -40452,10 +40459,6 @@
 	dir = 1
 	},
 /area/station/science/xenobiology)
-"tpj" = (
-/obj/structure/cable,
-/turf/open/floor/grass,
-/area/space)
 "tpu" = (
 /obj/machinery/atmospherics/pipe/smart/manifold/scrubbers/visible{
 	dir = 1
@@ -43829,6 +43832,10 @@
 	dir = 8
 	},
 /area/station/science/xenobiology)
+"uVy" = (
+/obj/structure/water_source/puddle,
+/turf/open/floor/grass,
+/area/space)
 "uVz" = (
 /obj/structure/closet/firecloset,
 /turf/open/floor/plating,
@@ -45379,10 +45386,6 @@
 /obj/item/toy/mecha/ripleymkii,
 /turf/open/floor/plating,
 /area/station/maintenance/port/central)
-"vKC" = (
-/mob/living/carbon/human/species/monkey,
-/turf/open/floor/grass,
-/area/space)
 "vKE" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/machinery/light/small/directional/north,
@@ -48919,6 +48922,10 @@
 	},
 /turf/open/floor/iron/dark,
 /area/station/science/lab)
+"xrB" = (
+/obj/structure/cable,
+/turf/open/floor/grass,
+/area/space)
 "xrI" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
@@ -49376,12 +49383,8 @@
 /turf/open/floor/iron/diagonal,
 /area/station/security/prison/garden)
 "xDw" = (
-/obj/effect/turf_decal/tile/green/diagonal_edge,
-/obj/effect/turf_decal/tile/dark/diagonal_centre,
-/obj/structure/table/glass,
-/obj/effect/spawner/random/food_or_drink/donkpockets,
-/turf/open/floor/iron/diagonal,
-/area/station/medical/pathology)
+/turf/open/floor/grass,
+/area/space)
 "xDL" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
@@ -96041,11 +96044,11 @@ rcY
 rdw
 rcY
 rcY
-suT
-suT
-suT
-suT
-suT
+bib
+bib
+bib
+bib
+bib
 aHu
 aHu
 aHu
@@ -96298,11 +96301,11 @@ qZb
 uux
 eqg
 rcY
-rFJ
-vKC
-vKC
-rFJ
-mqy
+xDw
+rXe
+rXe
+xDw
+rhx
 aHu
 aHu
 aHu
@@ -96555,11 +96558,11 @@ iaZ
 fLX
 nIy
 hpG
+xDw
+xDw
 rFJ
-rFJ
+hqt
 bib
-njI
-suT
 aHu
 aHu
 aHu
@@ -96812,11 +96815,11 @@ rdX
 uuL
 pms
 hpG
-rFJ
-rFJ
-pZm
-rFJ
-suT
+xDw
+xDw
+uVy
+xDw
+bib
 aHu
 aHu
 aHu
@@ -97064,16 +97067,16 @@ xHi
 jUI
 mdh
 elw
-xHi
+sXs
 xHi
 uuL
 vUN
-jKE
-tpj
-vKC
-vKC
-rFJ
-suT
+cIA
+xrB
+rXe
+rXe
+xDw
+bib
 aHu
 aHu
 aHu
@@ -97326,11 +97329,11 @@ ilk
 ivn
 pNM
 rcY
-suT
-suT
-suT
-suT
-suT
+bib
+bib
+bib
+bib
+bib
 aHu
 aHu
 aHu
@@ -97576,7 +97579,7 @@ rcY
 whT
 xHi
 ceW
-qAs
+ccT
 bjz
 xHi
 eNz
@@ -97838,7 +97841,7 @@ xHi
 xHi
 vUN
 wTB
-xDw
+nHW
 hpG
 aHu
 aHu
