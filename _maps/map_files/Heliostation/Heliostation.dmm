@@ -1527,6 +1527,7 @@
 /obj/effect/turf_decal/tile/blue,
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4,
 /obj/item/radio/intercom/directional/north,
+/obj/effect/turf_decal/tile/green/half,
 /turf/open/floor/iron/white,
 /area/station/medical/virology/isolation)
 "ahp" = (
@@ -5131,11 +5132,9 @@
 /turf/open/floor/carpet/green,
 /area/station/service/library)
 "aFc" = (
-/obj/machinery/iv_drip,
-/obj/effect/turf_decal/tile/green,
-/obj/effect/turf_decal/tile/blue,
 /obj/machinery/status_display/evac/directional/north,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/effect/turf_decal/tile/green/half,
 /turf/open/floor/iron/white,
 /area/station/medical/virology/isolation)
 "aFd" = (
@@ -5310,13 +5309,13 @@
 /obj/item/bedsheet/medical{
 	dir = 1
 	},
-/obj/effect/turf_decal/tile/green{
-	dir = 4
-	},
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
 	dir = 1
 	},
 /obj/item/radio/intercom/directional/south,
+/obj/effect/turf_decal/tile/green/half{
+	dir = 1
+	},
 /turf/open/floor/iron/white,
 /area/station/medical/virology/isolation)
 "aGc" = (
@@ -5811,13 +5810,12 @@
 /turf/open/floor/plating,
 /area/station/maintenance/port/fore)
 "aIq" = (
-/obj/machinery/iv_drip,
-/obj/effect/turf_decal/tile/green{
-	dir = 4
-	},
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/status_display/evac/directional/south,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/effect/turf_decal/tile/green/half{
+	dir = 1
+	},
 /turf/open/floor/iron/white,
 /area/station/medical/virology/isolation)
 "aIr" = (
@@ -6364,7 +6362,6 @@
 /obj/structure/table/glass,
 /obj/machinery/reagentgrinder,
 /obj/item/stack/sheet/mineral/plasma,
-/obj/item/reagent_containers/syringe/antiviral,
 /obj/item/storage/box/syringes{
 	pixel_x = -5
 	},
@@ -8320,6 +8317,7 @@
 	pixel_x = -9;
 	pixel_y = 5
 	},
+/obj/item/reagent_containers/syringe/antiviral,
 /obj/item/reagent_containers/syringe/antiviral,
 /turf/open/floor/iron/white,
 /area/station/medical/virology)
@@ -27682,12 +27680,12 @@
 /turf/open/floor/plating,
 /area/station/maintenance/port/greater)
 "drW" = (
-/obj/machinery/door/poddoor/preopen{
-	id = "Virology Breach";
-	name = "Virology Breach Prevention"
+/obj/effect/turf_decal/tile/green{
+	dir = 4
 	},
-/obj/effect/spawner/structure/window/reinforced,
-/turf/open/floor/plating,
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/iv_drip,
+/turf/open/floor/iron/white,
 /area/station/medical/virology/isolation)
 "dsh" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
@@ -34828,6 +34826,12 @@
 /obj/structure/cable,
 /turf/open/floor/plating,
 /area/station/maintenance/department/cargo)
+"gun" = (
+/obj/effect/turf_decal/tile/blue,
+/obj/effect/turf_decal/tile/green,
+/obj/machinery/iv_drip,
+/turf/open/floor/iron/white,
+/area/station/medical/virology/isolation)
 "guv" = (
 /obj/structure/table/reinforced,
 /obj/item/analyzer,
@@ -39058,6 +39062,12 @@
 /obj/effect/turf_decal/delivery,
 /turf/open/floor/iron/dark,
 /area/station/tcommsat/computer)
+"hWZ" = (
+/obj/effect/turf_decal/tile/green{
+	dir = 4
+	},
+/turf/open/floor/iron/white,
+/area/station/medical/virology/isolation)
 "hXo" = (
 /obj/structure/sign/warning/xeno_mining{
 	pixel_x = -30
@@ -51957,6 +51967,11 @@
 /obj/structure/closet/firecloset/wall/directional/south,
 /turf/open/floor/iron/dark/side,
 /area/station/hallway/secondary/command)
+"mUa" = (
+/obj/effect/turf_decal/tile/blue,
+/obj/effect/turf_decal/tile/green,
+/turf/open/floor/iron/white,
+/area/station/medical/virology/isolation)
 "mUy" = (
 /obj/structure/chair/office{
 	dir = 8
@@ -129523,12 +129538,12 @@ qHd
 abQ
 dnO
 aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
+dqt
+gOL
+gOL
+dqt
+gOL
+gOL
 aEe
 aEf
 qwL
@@ -129781,10 +129796,10 @@ ddq
 dnO
 aaa
 dqt
-gOL
-gOL
-dqt
-gOL
+gun
+hWZ
+wId
+mUa
 drW
 aEe
 iYc
