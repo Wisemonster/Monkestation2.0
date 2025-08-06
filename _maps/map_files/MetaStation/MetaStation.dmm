@@ -270,6 +270,8 @@
 	},
 /obj/machinery/power/apc/auto_name/directional/north,
 /obj/structure/cable,
+/obj/item/reagent_containers/syringe/antiviral,
+/obj/item/reagent_containers/syringe/antiviral,
 /turf/open/floor/iron/dark/textured,
 /area/station/maintenance/department/medical/pathology)
 "afz" = (
@@ -10633,15 +10635,6 @@
 /obj/structure/cable,
 /turf/open/floor/iron,
 /area/station/hallway/primary/central)
-"dSd" = (
-/obj/structure/bed{
-	dir = 4
-	},
-/obj/item/bedsheet/medical{
-	dir = 4
-	},
-/turf/open/floor/iron/white/diagonal,
-/area/station/medical/pathology/isolation)
 "dSB" = (
 /obj/machinery/door/airlock/grunge{
 	name = "Cell 3"
@@ -15798,11 +15791,6 @@
 /obj/effect/turf_decal/siding/purple,
 /turf/open/floor/iron/white,
 /area/station/science/ordnance/testlab)
-"fJm" = (
-/obj/structure/disposalpipe/segment,
-/obj/structure/lattice/catwalk,
-/turf/open/space/basic,
-/area/space/nearstation)
 "fJp" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
@@ -28109,6 +28097,9 @@
 /obj/structure/lattice/catwalk,
 /turf/open/space/basic,
 /area/space/nearstation)
+"jLx" = (
+/turf/open/floor/iron/white/diagonal,
+/area/station/medical/pathology/isolation)
 "jLD" = (
 /obj/effect/landmark/event_spawn,
 /obj/structure/cable,
@@ -30891,13 +30882,6 @@
 /obj/machinery/door/airlock/maintenance,
 /turf/open/floor/iron/dark/textured,
 /area/station/maintenance/department/medical/pathology)
-"kLE" = (
-/obj/structure/disposalpipe/segment{
-	dir = 5
-	},
-/obj/structure/lattice/catwalk,
-/turf/open/space/basic,
-/area/space/nearstation)
 "kLF" = (
 /obj/machinery/light/small/directional/south,
 /obj/machinery/light_switch/directional/south{
@@ -34819,9 +34803,12 @@
 /turf/open/floor/carpet,
 /area/station/command/heads_quarters/captain/private)
 "lZV" = (
-/obj/structure/water_source/puddle,
-/turf/open/floor/grass,
-/area/station/medical/pathology/isolation)
+/obj/structure/disposalpipe/segment{
+	dir = 5
+	},
+/obj/structure/lattice/catwalk,
+/turf/open/space/basic,
+/area/space/nearstation)
 "mam" = (
 /obj/structure/disposalpipe/segment{
 	dir = 4
@@ -35356,6 +35343,11 @@
 /obj/structure/cable/layer3,
 /turf/open/floor/iron/dark,
 /area/station/ai_monitored/aisat/exterior)
+"mjZ" = (
+/obj/structure/disposalpipe/segment,
+/obj/structure/lattice/catwalk,
+/turf/open/space/basic,
+/area/space/nearstation)
 "mkb" = (
 /obj/effect/turf_decal/tile/neutral{
 	dir = 1
@@ -35552,6 +35544,10 @@
 /obj/effect/turf_decal/stripes/line,
 /turf/open/floor/plating,
 /area/station/maintenance/aft/greater)
+"mnX" = (
+/obj/structure/water_source/puddle,
+/turf/open/floor/grass,
+/area/station/medical/pathology/isolation)
 "moe" = (
 /obj/effect/turf_decal/delivery,
 /obj/structure/disposalpipe/trunk{
@@ -36812,6 +36808,15 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/iron,
 /area/station/engineering/atmos)
+"mJr" = (
+/obj/item/bedsheet/medical{
+	dir = 4
+	},
+/obj/structure/bed{
+	dir = 4
+	},
+/turf/open/floor/iron/white/diagonal,
+/area/station/medical/pathology/isolation)
 "mJE" = (
 /obj/effect/turf_decal/tile/neutral{
 	dir = 1
@@ -54453,6 +54458,10 @@
 /obj/effect/turf_decal/trimline/dark_green/corner,
 /turf/open/floor/iron/dark/textured,
 /area/station/medical/pathology)
+"sKc" = (
+/obj/structure/lattice,
+/turf/closed/wall/r_wall,
+/area/station/medical/pathology/isolation)
 "sKe" = (
 /turf/open/floor/carpet,
 /area/station/medical/pathology)
@@ -62029,15 +62038,6 @@
 	},
 /turf/open/floor/iron,
 /area/station/construction/storage_wing)
-"vpZ" = (
-/obj/item/bedsheet/medical{
-	dir = 4
-	},
-/obj/structure/bed{
-	dir = 4
-	},
-/turf/open/floor/iron/white/diagonal,
-/area/station/medical/pathology/isolation)
 "vqk" = (
 /obj/structure/cable,
 /obj/machinery/door/firedoor,
@@ -62848,9 +62848,6 @@
 /obj/structure/reagent_dispensers/watertank,
 /turf/open/floor/iron,
 /area/station/science/robotics/mechbay)
-"vHP" = (
-/turf/open/floor/iron/white/diagonal,
-/area/station/medical/pathology/isolation)
 "vIa" = (
 /obj/structure/disposalpipe/segment{
 	dir = 4
@@ -65540,8 +65537,13 @@
 /turf/open/floor/iron,
 /area/station/hallway/primary/central)
 "wEN" = (
-/obj/structure/lattice,
-/turf/closed/wall/r_wall,
+/obj/structure/bed{
+	dir = 4
+	},
+/obj/item/bedsheet/medical{
+	dir = 4
+	},
+/turf/open/floor/iron/white/diagonal,
 /area/station/medical/pathology/isolation)
 "wER" = (
 /obj/effect/turf_decal/stripes/corner{
@@ -83695,8 +83697,8 @@ lMJ
 lMJ
 lMJ
 kiA
-fJm
-kLE
+mjZ
+lZV
 lMJ
 lMJ
 lMJ
@@ -83942,7 +83944,7 @@ aox
 lMJ
 aaa
 aaa
-wEN
+sKc
 lOi
 lOi
 lOi
@@ -84200,13 +84202,13 @@ lMJ
 aaa
 aaa
 lOi
-vpZ
+mJr
 dQI
 lOi
-vpZ
+mJr
 dQI
 lOi
-dSd
+wEN
 dQI
 hDg
 hDg
@@ -84715,13 +84717,13 @@ aaa
 aaa
 lOi
 ddR
-vHP
+jLx
 lOi
 ddR
-vHP
+jLx
 lOi
 ddR
-vHP
+jLx
 hDg
 afy
 aEa
@@ -86771,7 +86773,7 @@ jUb
 kue
 ebk
 oeF
-lZV
+mnX
 hbE
 ueF
 oeF
