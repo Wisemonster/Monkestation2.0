@@ -263,16 +263,11 @@
 "afy" = (
 /obj/structure/rack,
 /obj/item/reagent_containers/spray/cleaner,
-/obj/item/reagent_containers/syringe/antiviral{
-	pixel_y = 8
-	},
-/obj/item/reagent_containers/dropper,
 /obj/item/reagent_containers/dropper,
 /obj/item/reagent_containers/dropper,
 /obj/item/hand_labeler{
 	pixel_y = -6
 	},
-/obj/item/device/antibody_scanner,
 /obj/machinery/power/apc/auto_name/directional/north,
 /obj/structure/cable,
 /turf/open/floor/iron/dark/textured,
@@ -919,10 +914,10 @@
 /turf/open/floor/plating,
 /area/station/cargo/sorting)
 "aqL" = (
-/obj/structure/disposalpipe/segment{
-	dir = 5
-	},
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
 /turf/open/floor/plating/airless,
 /area/space/nearstation)
 "aqN" = (
@@ -8085,14 +8080,10 @@
 	dir = 9
 	},
 /obj/structure/table/wood,
-/obj/item/kirbyplants/synthetic/plant29{
-	pixel_y = 10;
-	pixel_x = 7
+/obj/machinery/reagentgrinder{
+	pixel_y = 8
 	},
-/obj/item/reagent_containers/cup/glass/waterbottle/tea/mushroom{
-	pixel_y = 2;
-	pixel_x = -5
-	},
+/obj/item/stack/sheet/mineral/plasma,
 /turf/open/floor/wood/parquet,
 /area/station/medical/pathology)
 "cXw" = (
@@ -10642,6 +10633,15 @@
 /obj/structure/cable,
 /turf/open/floor/iron,
 /area/station/hallway/primary/central)
+"dSd" = (
+/obj/structure/bed{
+	dir = 4
+	},
+/obj/item/bedsheet/medical{
+	dir = 4
+	},
+/turf/open/floor/iron/white/diagonal,
+/area/station/medical/pathology/isolation)
 "dSB" = (
 /obj/machinery/door/airlock/grunge{
 	name = "Cell 3"
@@ -12829,16 +12829,12 @@
 	dir = 1
 	},
 /obj/structure/table/wood,
-/obj/machinery/microwave{
-	pixel_y = 6
+/obj/item/storage/box/beakers,
+/obj/item/storage/box/syringes{
+	pixel_y = -3
 	},
-/obj/item/food/donkpocket/berry{
-	pixel_y = 18;
-	pixel_x = 8
-	},
-/obj/item/reagent_containers/cup/glass/bottle/beer{
-	pixel_y = 21;
-	pixel_x = -1
+/obj/item/book/manual/wiki/infections{
+	pixel_y = 7
 	},
 /turf/open/floor/wood/parquet,
 /area/station/medical/pathology)
@@ -15250,10 +15246,7 @@
 /obj/effect/turf_decal/trimline/dark_green/line{
 	dir = 2
 	},
-/obj/item/reagent_containers/cup/tube,
-/obj/item/reagent_containers/cup/tube,
-/obj/item/reagent_containers/cup/tube,
-/obj/item/reagent_containers/cup/tube,
+/obj/item/storage/box/tube,
 /turf/open/floor/iron/dark/textured,
 /area/station/medical/pathology)
 "fxr" = (
@@ -15805,6 +15798,11 @@
 /obj/effect/turf_decal/siding/purple,
 /turf/open/floor/iron/white,
 /area/station/science/ordnance/testlab)
+"fJm" = (
+/obj/structure/disposalpipe/segment,
+/obj/structure/lattice/catwalk,
+/turf/open/space/basic,
+/area/space/nearstation)
 "fJp" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
@@ -19521,6 +19519,8 @@
 	dir = 9
 	},
 /obj/machinery/camera/autoname/directional/west,
+/obj/machinery/disease2/centrifuge,
+/obj/item/storage/box/tube,
 /turf/open/floor/iron/dark/textured,
 /area/station/medical/pathology)
 "gYO" = (
@@ -22662,14 +22662,15 @@
 /area/station/ai_monitored/aisat/exterior)
 "hZL" = (
 /obj/structure/reagent_dispensers/wall/virusfood/directional/west,
-/obj/item/stack/sheet/mineral/plasma,
-/obj/item/stack/sheet/mineral/plasma,
-/obj/item/stack/sheet/mineral/plasma,
 /obj/item/clothing/glasses/hud/health{
 	pixel_y = 9
 	},
 /obj/structure/table/reinforced,
 /obj/machinery/light/directional/north,
+/obj/item/reagent_containers/cup/glass/waterbottle/tea/mushroom{
+	pixel_y = 2;
+	pixel_x = -5
+	},
 /turf/open/floor/carpet,
 /area/station/medical/pathology)
 "hZO" = (
@@ -24204,12 +24205,6 @@
 /turf/open/floor/plating,
 /area/station/maintenance/starboard/lesser)
 "iyF" = (
-/obj/structure/bed{
-	dir = 4
-	},
-/obj/item/bedsheet/medical{
-	dir = 4
-	},
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
 	dir = 4
 	},
@@ -30896,6 +30891,13 @@
 /obj/machinery/door/airlock/maintenance,
 /turf/open/floor/iron/dark/textured,
 /area/station/maintenance/department/medical/pathology)
+"kLE" = (
+/obj/structure/disposalpipe/segment{
+	dir = 5
+	},
+/obj/structure/lattice/catwalk,
+/turf/open/space/basic,
+/area/space/nearstation)
 "kLF" = (
 /obj/machinery/light/small/directional/south,
 /obj/machinery/light_switch/directional/south{
@@ -32436,19 +32438,18 @@
 /obj/item/clothing/glasses/pathology,
 /obj/item/clothing/gloves/latex,
 /obj/item/clothing/gloves/latex,
-/obj/item/clothing/gloves/latex,
 /obj/item/healthanalyzer,
 /obj/item/healthanalyzer,
-/obj/item/healthanalyzer,
-/obj/item/reagent_containers/cup/tube,
-/obj/item/reagent_containers/cup/tube,
-/obj/item/reagent_containers/cup/tube,
-/obj/item/reagent_containers/cup/tube,
-/obj/item/reagent_containers/cup/tube,
-/obj/item/reagent_containers/cup/tube,
 /obj/item/device/antibody_scanner,
 /obj/item/device/antibody_scanner,
 /obj/item/device/antibody_scanner,
+/obj/item/device/antibody_scanner,
+/obj/item/clothing/glasses/hud/health{
+	pixel_y = 9
+	},
+/obj/item/clothing/glasses/hud/health{
+	pixel_y = 9
+	},
 /turf/open/floor/iron/dark/textured,
 /area/station/medical/pathology)
 "lma" = (
@@ -34818,12 +34819,9 @@
 /turf/open/floor/carpet,
 /area/station/command/heads_quarters/captain/private)
 "lZV" = (
-/obj/structure/disposalpipe/segment{
-	dir = 4
-	},
-/obj/structure/lattice/catwalk,
-/turf/open/space/basic,
-/area/space/nearstation)
+/obj/structure/water_source/puddle,
+/turf/open/floor/grass,
+/area/station/medical/pathology/isolation)
 "mam" = (
 /obj/structure/disposalpipe/segment{
 	dir = 4
@@ -34934,6 +34932,7 @@
 	pixel_y = 8
 	},
 /obj/structure/table/reinforced,
+/obj/item/stack/sheet/mineral/plasma,
 /turf/open/floor/carpet,
 /area/station/medical/pathology)
 "mcl" = (
@@ -47088,6 +47087,12 @@
 	pixel_x = 8;
 	pixel_y = -1
 	},
+/obj/item/folder/white{
+	pixel_x = 4;
+	pixel_y = -3
+	},
+/obj/item/folder/white,
+/obj/item/pen/red,
 /turf/open/floor/carpet,
 /area/station/medical/pathology)
 "qkV" = (
@@ -51544,15 +51549,14 @@
 /obj/effect/turf_decal/siding/wood{
 	dir = 6
 	},
-/obj/item/book/manual/wiki/infections{
-	pixel_y = 7
+/obj/machinery/microwave{
+	pixel_y = 6
 	},
-/obj/item/folder/white,
-/obj/item/folder/white{
-	pixel_x = 4;
-	pixel_y = -3
+/obj/item/reagent_containers/cup/glass/bottle/beer{
+	pixel_y = 21;
+	pixel_x = -1
 	},
-/obj/item/pen/red,
+/obj/effect/spawner/random/food_or_drink/donkpockets,
 /turf/open/floor/wood/large,
 /area/station/medical/pathology)
 "rJS" = (
@@ -52584,12 +52588,6 @@
 /turf/open/floor/plating,
 /area/station/maintenance/port/aft)
 "saw" = (
-/obj/structure/bed{
-	dir = 4
-	},
-/obj/item/bedsheet/medical{
-	dir = 4
-	},
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
 	dir = 4
 	},
@@ -60229,6 +60227,10 @@
 /obj/effect/turf_decal/trimline/dark_green/line{
 	dir = 5
 	},
+/obj/item/kirbyplants/synthetic/plant29{
+	pixel_y = 10;
+	pixel_x = 7
+	},
 /turf/open/floor/iron/dark/textured,
 /area/station/medical/pathology)
 "uHt" = (
@@ -62027,6 +62029,15 @@
 	},
 /turf/open/floor/iron,
 /area/station/construction/storage_wing)
+"vpZ" = (
+/obj/item/bedsheet/medical{
+	dir = 4
+	},
+/obj/structure/bed{
+	dir = 4
+	},
+/turf/open/floor/iron/white/diagonal,
+/area/station/medical/pathology/isolation)
 "vqk" = (
 /obj/structure/cable,
 /obj/machinery/door/firedoor,
@@ -62837,6 +62848,9 @@
 /obj/structure/reagent_dispensers/watertank,
 /turf/open/floor/iron,
 /area/station/science/robotics/mechbay)
+"vHP" = (
+/turf/open/floor/iron/white/diagonal,
+/area/station/medical/pathology/isolation)
 "vIa" = (
 /obj/structure/disposalpipe/segment{
 	dir = 4
@@ -65526,10 +65540,9 @@
 /turf/open/floor/iron,
 /area/station/hallway/primary/central)
 "wEN" = (
-/obj/structure/lattice/catwalk,
-/obj/structure/disposalpipe/segment,
-/turf/open/space/basic,
-/area/space/nearstation)
+/obj/structure/lattice,
+/turf/closed/wall/r_wall,
+/area/station/medical/pathology/isolation)
 "wER" = (
 /obj/effect/turf_decal/stripes/corner{
 	dir = 1
@@ -83413,17 +83426,17 @@ aaa
 lMJ
 aox
 lMJ
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
+lMJ
+lMJ
+mxQ
+mxQ
+mxQ
+mxQ
+mxQ
+mxQ
+mxQ
+mxQ
+mxQ
 fee
 aaa
 aaa
@@ -83670,20 +83683,20 @@ lMJ
 lMJ
 aox
 lMJ
+aaa
+aaa
 lMJ
 lMJ
-rrt
-rrt
-rrt
-rrt
-rrt
-rrt
-rrt
-rrt
-rrt
-lZV
 lMJ
 lMJ
+lMJ
+lMJ
+lMJ
+lMJ
+lMJ
+kiA
+fJm
+kLE
 lMJ
 lMJ
 lMJ
@@ -83929,17 +83942,17 @@ aox
 lMJ
 aaa
 aaa
-lMJ
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-kiA
 wEN
+lOi
+lOi
+lOi
+lOi
+lOi
+lOi
+lOi
+lOi
+hDg
+aox
 aqL
 dgk
 aaa
@@ -84187,14 +84200,14 @@ lMJ
 aaa
 aaa
 lOi
+vpZ
+dQI
 lOi
+vpZ
+dQI
 lOi
-lOi
-lOi
-lOi
-lOi
-lOi
-lOi
+dSd
+dQI
 hDg
 hDg
 oWq
@@ -84702,13 +84715,13 @@ aaa
 aaa
 lOi
 ddR
-dQI
+vHP
 lOi
 ddR
-dQI
+vHP
 lOi
 ddR
-dQI
+vHP
 hDg
 afy
 aEa
@@ -86758,7 +86771,7 @@ jUb
 kue
 ebk
 oeF
-kue
+lZV
 hbE
 ueF
 oeF
