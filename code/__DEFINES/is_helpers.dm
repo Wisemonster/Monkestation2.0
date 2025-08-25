@@ -200,7 +200,7 @@ GLOBAL_LIST_INIT(cat_typecache, typecacheof(list(
 
 #define isclown(A) (istype(A, /mob/living/basic/clown))
 
-#define isspider(A) (istype(A, /mob/living/basic/spider/giant))
+#define isspider(A) (istype(A, /mob/living/basic/spider))
 
 #define isbingle(A) (istype(A, /mob/living/basic/bingle))
 
@@ -213,8 +213,6 @@ GLOBAL_LIST_INIT(cat_typecache, typecacheof(list(
 #define isnewplayer(A) (istype(A, /mob/dead/new_player))
 
 #define isovermind(A) (istype(A, /mob/camera/blob))
-
-#define issentientdisease(A) (istype(A, /mob/camera/disease))
 
 #define iscameramob(A) (istype(A, /mob/camera))
 
