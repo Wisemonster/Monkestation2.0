@@ -60,6 +60,7 @@
 
 /obj/item/clothing/shoes/wheelys/cheap
 	name = "Cheap Wheely-Heels"
+	wheels = /obj/vehicle/ridden/scooter/skateboard/wheelys/cheap
 
 /obj/item/clothing/shoes/wheelys/rollerskates
 	name = "roller skates"
