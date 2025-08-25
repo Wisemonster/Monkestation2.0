@@ -250,7 +250,7 @@ GLOBAL_LIST_INIT(loadout_helmets, generate_loadout_items(/datum/loadout_item/hea
 	item_path = /obj/item/clothing/head/syndicatefake
 
 /datum/loadout_item/head/glatiator
-	name = "Cheap Gladiator Helmet"
+	name = "Gladiator Helmet Replica"
 	item_path = /obj/item/clothing/head/helmet/gladiator/cheap
 
 /datum/loadout_item/head/griffin

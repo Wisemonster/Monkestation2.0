@@ -399,7 +399,7 @@
 	dog_fashion = null
 
 /obj/item/clothing/head/helmet/gladiator/cheap
-	name = "cheap gladiator helmet"
+	name = "gladiator helmet replica"
 	max_heat_protection_temperature = null
 	min_cold_protection_temperature = null
 	armor_type = null
