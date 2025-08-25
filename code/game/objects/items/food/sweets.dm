@@ -217,7 +217,7 @@
 
 /obj/item/food/bubblegum/happiness/diet //Can't just change it to normal bubblegum in loadouts, so just make it diet
 	name = "Diet HP+ gum"
-	food_reagents = list(/datum/reagent/sugar = 5)
+	food_reagents = list(/datum/reagent/consumable/sugar = 5)
 
 /obj/item/food/bubblegum/bubblegum
 	name = "bubblegum gum"
