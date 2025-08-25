@@ -398,6 +398,10 @@
 	flags_cover = HEADCOVERSEYES
 	dog_fashion = null
 
+/obj/item/clothing/head/helmet/gladiator/cheap
+	name = "cheap gladiator helmet"
+	armor_type = null
+
 /obj/item/clothing/head/helmet/redtaghelm
 	name = "red laser tag helmet"
 	desc = "They have chosen their own end."
