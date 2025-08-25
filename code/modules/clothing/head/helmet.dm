@@ -400,6 +400,8 @@
 
 /obj/item/clothing/head/helmet/gladiator/cheap
 	name = "cheap gladiator helmet"
+	max_heat_protection_temperature = null
+	min_cold_protection_temperature = null
 	armor_type = null
 
 /obj/item/clothing/head/helmet/redtaghelm
