@@ -402,7 +402,7 @@
 	name = "gladiator helmet replica"
 	max_heat_protection_temperature = null
 	min_cold_protection_temperature = null
-	armor_type = null
+	armor_type = /datum/armor/none
 
 /obj/item/clothing/head/helmet/redtaghelm
 	name = "red laser tag helmet"
